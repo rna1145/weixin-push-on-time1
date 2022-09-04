@@ -4,16 +4,16 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "wx544b2d50b18cdc23",
+    APP_ID: "wx9c3824d2b01b3a16",
 
     // 公众号APP_SECRET
-    APP_SECRET: "158d1d53029246aef955602f8355809e",
+    APP_SECRET: "62e4d18eab8a918c6a9656b9f3e8b994",
 
     // 模板消息id
-    TEMPLATE_ID: "Tp3Fmyxt5yvY-Lwe5KenzCD4E6rQTrVdtm6BwrTCFgA",
+    TEMPLATE_ID: "ougQZWjxJ9rj6qAvIZm0q8LJbcIaHX3BsIs9QQB3qN0",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "Tp3Fmyxt5yvY-Lwe5KenzCD4E6rQTrVdtm6BwrTCFgA",
+    CALLBACK_TEMPLATE_ID: "ibBGt-H0XomGNa9RqcjULx7-mQ58GpLQuJoVwQpbcWg",
 
 
     /**
@@ -24,14 +24,14 @@ export const config = {
      * ]
      */
     USERS: [
-      {name: '小瑞子', id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
+      {name: '老婆', id: "oJat-6bEQJcRuo7IGwCQ9IfZJ8Pw"}, 
       //{name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
       //{name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
       //{name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
+      {name: '自己',id: "oJat-6eoaYs0dv3b2mGbTTQz93jk"}, 
     ],
      
     /**
@@ -41,9 +41,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "山东",
+    PROVINCE: "浙江",
     // 所在城市
-    CITY: "聊城",
+    CITY: "宁波",
 
     /** 重要节日相关 */
 
@@ -54,9 +54,9 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "小仙友", "year": "2000", "date": "11-26"},
-      {"type": "生日", "name": "小瑞子", "year": "2001", "date": "10-10"},
-      {"type": "节日", "name": "纪念日", "year": "2020", "date": "01-19"},
+      {"type": "生日", "name": "老婆", "year": "2003", "date": "09-06"},
+      {"type": "生日", "name": "你男朋友生日", "year": "2002", "date": "07-03"},
+     // {"type": "节日", "name": "老婆", "year": "2020", "date": "01-19"},
     ],
 
     /**
@@ -75,7 +75,7 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-      {"keyword": "love_day", date: "2020-01-19"},
+      {"keyword": "love_day", date: "2022-03-01"},
       // 结婚纪念日
       //{"keyword": "marry_day", date: "2020-01-04"},
       // 退伍日, 不用可以删掉
